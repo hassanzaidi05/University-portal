@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header class="head">
+    <h1 class="logo">Comsats University Islamabad</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="#register">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="admission">
+    <h2>Get Admissioned</h2>
+    <form>
+      <div class="form-grid">
+
+        <div class="form-item">
+          <label for="email">Enter Your Email:</label>
+          <input type="email" id="email" name="email">
+        </div>
+
+        <div class="form-item">
+          <label for="password">Enter Your Password:</label>
+          <input type="password" id="password" name="password">
+        </div>
+
+        <div class="form-item">
+          <label for="name">Enter Your Name:</label>
+          <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form-item">
+          <label for="number">Enter Your Contact Number:</label>
+          <input type="number" id="number" name="number">
+        </div>
+
+        <div class="form-item">
+          <label for="date">Date Of Birth:</label>
+          <input type="date" id="date" name="date">
+        </div>
+
+        <div class="form-item">
+          <label for="Degree">Select Your Degree:</label>
+          <select id="Degree">
+            <option value="Bachelor’s">Bachelor’s</option>
+            <option value="Master’s">Master’s</option>
+            <option value="PHD">PHD</option>
+          </select>
+        </div>
+
+        <div class="form-item">
+          <label for="courses">Select Your Department:</label>
+          <select id="courses">
+            <option value="Computer Science">Computer Science</option>
+            <option value="Software Engineering">Software Engineering</option>
+            <option value="Data Science & Economics">Data Science & Economics</option>
+            <option value="Mathematics">Mathematics</option>
+          </select>
+        </div>
+
+        <div class="form-item">
+          <label for="colour">Favourite Colour:</label>
+          <input type="text" id="colour" name="colour">
+        </div>
+
+      </div>
+
+      <div class="form-btn">
+        <button type="submit" class="btn">Submit</button>
+      </div>
+    </form>
+  </article>
+</body>
+</html>
